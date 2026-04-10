@@ -5,7 +5,6 @@ from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
 from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
-from utils import norm_id
 
 from sqlite_db import (
     create_ride,
