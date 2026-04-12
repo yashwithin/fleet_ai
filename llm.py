@@ -19,8 +19,7 @@ load_dotenv()
 # ----------------------------
 # LLMs
 # ----------------------------
-anthropic = ChatAnthropic(model="claude-3-haiku-20240307")
-openai = ChatOpenAI(model="gpt-4o-mini")
+anthropic = ChatAnthropic(model="claude-3-haiku-20240307", max_tokens=1000)
 
 # ----------------------------
 # TOOLS
