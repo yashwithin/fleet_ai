@@ -19,7 +19,7 @@ load_dotenv()
 # ----------------------------
 # LLMs
 # ----------------------------
-anthropic = ChatAnthropic(model="claude-3-haiku-20240307", max_tokens=1000)
+anthropic = ChatAnthropic(model="claude-3-haiku-latest", max_tokens=1000)
 
 # ----------------------------
 # TOOLS
